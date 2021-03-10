@@ -1,6 +1,11 @@
 # Caso-3
  Caso 3 Analisis de algoritmos 
  
+ Specs de la computadora usada:
+ 
+ ![image](https://user-images.githubusercontent.com/62961473/110567726-95a85500-8117-11eb-9819-0b27b2681423.png)
+
+ 
  Pasos pruebas C:
   1. Para compilar el codigo con el compilador especial de C, fue descargado "Tiny C Compiler" (tcc), mientras que el compiladore de C++ fue "GNU Compiler Collection" (gcc)
   2. El codigo consiste en una busqueda lineal en donde el numero buscado no es parte de esta, por lo que es el peor de los casos y conseguimos el tiempo y la memoria utilizada, para probar que tanto cambiaba el tiempo, se fue gradualmente aumentando el tamaño del arreglo utilizado. Los tamaños fueron (de mayor a menor): 400000000, 300000000, 200000000, 100000000, 50000000, 10000000, 5000000, 1000000, 100000.
