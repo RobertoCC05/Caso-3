@@ -32,4 +32,4 @@ R/ Como se puede observar, ambos compiladores estan bastante cerca con los tiemp
  Parte 2
  ![Screenshot](tcc2.png)
  
- 
+ a
