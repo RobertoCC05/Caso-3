@@ -25,16 +25,7 @@ R/ Como se puede observar, ambos compiladores estan bastante cerca con los tiemp
 
 Tabla GO - Rust:
 
-Cantidad  - Tiempo (segundos) GO - Tiempo (segundos) RUST
-100000    - 
-1000000   -
-5000000   -
-10000000  -
-50000000  -
-100000000 -
-200000000 -
-300000000 -
-400000000 -
+![image](https://user-images.githubusercontent.com/62961473/110569071-9b9f3580-8119-11eb-9b72-58105f40719f.png)
 
 
  Screenshots:
