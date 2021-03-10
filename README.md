@@ -9,16 +9,7 @@
   
   
  Tabla C:
-Cantidad  - Tiempo (segundos) GCC - Tiempo (segundos) TCC
-100000    - 0.002000              - 0.002000
-1000000   - 0.003000              - 0.003000
-5000000   - 0.013000              - 0.016000
-10000000  - 0.031000              - 0.029000
-50000000  - 0.126000              - 0.142000
-100000000 - 0.250000              - 0.269000
-200000000 - 0.480000              - 0.533000
-300000000 - 0.781000              - 0.847000
-400000000 - 1.108000              - 1.100000
+ ![Screenshot](Tabla1.png)
 
 R/ Como se puede observar, ambos compiladores estan bastante cerca con los tiempos, pero con nustros resultados, el compilador de C++ (gcc) ganó obteniendo un menor tiempo.
 
