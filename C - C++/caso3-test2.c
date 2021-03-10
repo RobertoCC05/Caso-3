@@ -2,6 +2,8 @@
 #include <time.h>       // for clock_t, clock(), CLOCKS_PER_SEC
 #define amount 400000000
 
+//#include <sys/resource.h>
+
 int main(){
     double time_spent = 0.0;
  
@@ -13,21 +15,28 @@ int main(){
         i++;
     }
 
-    printf("Added values!\n");
+    printf("Items in the array: %d\n", amount);
     
     clock_t t1 = clock();
     for (int n = 0; n < amount; n++){
        if (array[n] == num){
-            printf("Is in!\n");
+            printf("The number is in!\n");
             break;
         } else if (n == amount - 1)
-            printf("Isn't in!\n");
+            printf("The number isn't in!\n");
     }
 
     clock_t t2 = clock();
 
     time_spent += (double)(t2 - t1) / CLOCKS_PER_SEC;
-    printf("\n\nTime elpased is %f seconds", time_spent);
+    printf("\nTime elapsed is %f seconds", time_spent);
+
+    printf("\n\nMemory used: %d bytes", sizeof(time_spent) + sizeof(array) + sizeof(i)*3 + sizeof(t1)*2);
+
+    //struct rusage r_usage;
+    //getrusage(RUSAGE_SELF,&r_usage);
+    // Print the maximum resident set size used (in kilobytes).
+    //printf("Memory usage: %ld kilobytes\n",r_usage.ru_maxrss);
 
     return 0;
 }

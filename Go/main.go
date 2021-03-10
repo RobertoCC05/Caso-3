@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-const amount = 8000000
+const amount = 400000000//8000000
 
 func main() {
 	var array[amount]int
@@ -15,21 +15,21 @@ func main() {
 		array[i] = i
 	}
 	
-	fmt.Println("Added values!")
-	
+	fmt.Println("Items in the array:", amount)
+
 	t1:= time.Now()
 	
 	for i := 0; i < amount; i++{
 		if array[i] == num{
-			fmt.Println("Is in!")
+			fmt.Println("The number is in!")
 			break;
 		} else if i == amount-1{
-			fmt.Println("Isn't in!")
+			fmt.Println("The number isn't in!")
 		}
 	}
 	
 	t2:= time.Now()
 	diff:= t2.Sub(t1)
 	
-	fmt.Println("\n\nTime elapsed:",diff)
+	fmt.Println("\nTime elapsed:",diff)
 }
