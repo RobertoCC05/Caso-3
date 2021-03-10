@@ -12,13 +12,33 @@
   3. Con tcc, desde cmd se compilo el archivo con el comando tcc ..\mainC.c, mientras que con el otro desde la terminal de VSCode con el comando cd "c:\Users\jgamb\Documents\GitHub\Caso-3\C\" ; if ($?) { gcc mainC.c -o mainC } ; if ($?) { .\mainC }
   4. Se revisaron los tiempos y la memoria, y se tomaron capturas de pantalla de los resultados.
   
-  
  Tabla C:
  ![Screenshot](Tabla1.png)
 
 R/ Como se puede observar, ambos compiladores estan bastante cerca con los tiempos, pero con nustros resultados, el compilador de C++ (gcc) ganó obteniendo un menor tiempo.
 
+ Pasos pruebas GO - Rust:
+  1. Se descargo respectivamente los archivos necesarios para compilar GO, debido a complicaciones con la computadora, el codigo de Rust fue probado desde un compilador online
+  2. El codigo en la parte logica es el mismo que fue utilizado en C, claramente programado en sus lenguajes respectivos.
+  3. Para GO, desde VSCode se compilo con el comando: go run "c:\Users\jgamb\Documents\GitHub\Caso-3\Go\main.go"
+  4. Se revisaron los tiempos para llegar a una conclusion.
+
+Tabla GO - Rust:
+
+Cantidad  - Tiempo (segundos) GO - Tiempo (segundos) RUST
+100000    - 
+1000000   -
+5000000   -
+10000000  -
+50000000  -
+100000000 -
+200000000 -
+300000000 -
+400000000 -
+
+
  Screenshots:
+ 
  GCC
  ![Screenshot](gcc.png)
  
@@ -28,4 +48,6 @@ R/ Como se puede observar, ambos compiladores estan bastante cerca con los tiemp
  Parte 2
  ![Screenshot](tcc2.png)
  
- a
+ GO:
+ ![image](https://user-images.githubusercontent.com/62961473/110568053-10717000-8118-11eb-85a2-b0e0e745268b.png)
+
